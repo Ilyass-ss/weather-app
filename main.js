@@ -16,7 +16,7 @@ lottie.loadAnimation({
     renderer: "svg",
     autoplay: true,
     loop: true,
-    path: 'https://raw.githubusercontent.com/Ilyass-ss/weather-app/main/Global.json'
+    path: 'https://raw.githack.com/Ilyass-ss/weather-app/main/Global.json'
 })
 
 // Get Location (Default)
@@ -171,23 +171,23 @@ function chooseIcon() {
         case "Clear":
             // Check Country Time
             if (current >= sunrise && current < sunset) {
-                iconPath = "https://raw.githubusercontent.com/Crow-1221/EliasWeather/main/Weather-sunny.json"
+                iconPath = "https://raw.githack.com/Ilyass-ss/weather-app/main/Weather-sunny.json"
             }
             else {
-                iconPath = "https://raw.githubusercontent.com/Crow-1221/EliasWeather/main/Moon.json"
+                iconPath = "https://raw.githack.com/Ilyass-ss/weather-app/main/Moon.json"
             }
             break;
         case "Clouds":
-            iconPath = "https://raw.githubusercontent.com/Crow-1221/EliasWeather/main/Weather-mist.json"
+            iconPath = "https://raw.githack.com/Ilyass-ss/weather-app/main/Weather-mist.json"
             break;
         case "Rain":
-            iconPath = "https://raw.githubusercontent.com/Crow-1221/EliasWeather/main/rainy icon.json";
+            iconPath = "https://raw.githack.com/Ilyass-ss/weather-app/main/rainy icon.json";
             break;
         case "Snow":
-            iconPath = "https://raw.githubusercontent.com/Crow-1221/EliasWeather/main/Weather-snow.json"
+            iconPath = "https://raw.githack.com/Ilyass-ss/weather-app/main/Weather-snow.json"
             break;
         default:
-            iconPath = "https://raw.githubusercontent.com/Crow-1221/EliasWeather/main/Weather-mist.json"
+            iconPath = "https://raw.githack.com/Ilyass-ss/weather-app/main/Weather-mist.json"
     }
     lottie.loadAnimation({
         container: document.getElementById("weather-icon"),
