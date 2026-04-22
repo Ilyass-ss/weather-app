@@ -304,3 +304,21 @@ main #weather-description {
     backdrop-filter: blur(10px);
     font-size: clamp(2rem, 5vw, 2.5rem)
 }
+
+/* footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 20rem;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h1 {
+    font-size: clamp(2rem, 4vw, 3.5rem);
+} */
