@@ -16,7 +16,7 @@ lottie.loadAnimation({
     renderer: "svg",
     autoplay: true,
     loop: true,
-    path: 'https://raw.githubusercontent.com/ilyass-ss/weather-app/main/Global.json'
+    path: 'https://raw.githubusercontent.com/Ilyass-ss/weather-app/refs/heads/main/Global.json'
 })
 
 // Get Location (Default)
