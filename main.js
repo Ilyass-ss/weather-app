@@ -68,7 +68,7 @@ function getWeather() {
 
 
 
-            console.log(data.coord)
+            // console.log(data.coord)
         }
         // Alert If City Not Found
         else if (this.status === 404) {
@@ -255,7 +255,7 @@ function getForecastNextDays() {
                 forecastDay.append(forecast);
                 forecastSection.append(forecastDay);
             }
-            console.log(data)
+            // console.log(data)
         }
     }
     xhr.send()
