@@ -35,9 +35,6 @@ body {
     z-index: -999;
     background-size: cover;
     padding: 12rem 6rem 6rem 6rem;
-
-    /* background-attachment: fixed;
-    background-size: cover; */
 }
 
 @media (max-width: 1022px) {
@@ -308,20 +305,37 @@ main #weather-description {
     font-size: clamp(2rem, 5vw, 2.5rem)
 }
 
-/* footer {
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
-    height: 20rem;
+    /* background-color: black; */
+    height: 10rem;
 }
 
 footer div {
     display: flex;
+    flex: 1;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 0 3rem 0 2rem;
 }
 
 footer h1 {
-    font-size: clamp(2rem, 4vw, 3.5rem);
-} */
+    font-size: clamp(1.5rem, 4vw, 1.8rem);
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+}
+
+footer li {
+    margin: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: clamp(1.5rem, 4vw, 1.8rem);
+}
